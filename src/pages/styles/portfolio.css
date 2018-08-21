@@ -1,0 +1,67 @@
+.portfolio {
+  padding-top: 8%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.portfolio_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_container h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: rgb(60, 60, 60);
+  padding-top: 2%;
+}
+
+.portfolio_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.portfolio_sub > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid grey;
+  padding: 1%;
+}
+
+.portfolio_sub p {
+  padding: 1%;
+}
+
+.portfolio_sub h2 {
+    padding: 0 2%;
+    animation: titleFade 1.5s;
+}
+
+.portfolio_sub div:nth-of-type(2) {
+    text-align: end;
+
+}
+
+
+
+.book {
+  height: 300px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+@keyframes titleFade {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
