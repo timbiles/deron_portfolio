@@ -5,10 +5,14 @@ import './styles/about.css';
 
 const About = () => (
   <div className='about'>
+
     <div className='bio_name'>
-      <h1>Deron Biles</h1>
-      <p>Dean Emeritus of Southwestern Center for Extension Education, Professor of Pastoral Ministries and Preaching, and Director of Professional Doctoral Studies, School of Theology and Preaching</p>
+
+      <h1>About Deron Biles</h1>
+      <p>Dean Emeritus of Southwestern Center for Extension Education<br/> Professor of Pastoral Ministries and Preaching<br /> Director of Professional Doctoral Studies, School of Theology and Preaching</p>
     </div>
+  
+
 
     <div className='about_container'>
         <p>Dr. Deron J. Biles and his wife, Jaye, have four sons: Joshua, Timothy, Jonathan, and David.  They also have four daughters-in-law and four grandchildren.  Dr. Biles graduated from Howard Payne University in Brownwood in 1989 with a BA in Bible and History; received an MDivBL from Southwestern Seminary in 1992; and a Ph.D. from Southwestern in Old Testament in 1997.</p>

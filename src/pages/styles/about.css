@@ -2,20 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .bio_name {
     box-shadow: 1px 1px 3px rgb(184, 184, 184);
-    margin: 2% 10% -4% 6%;
+    margin: 5% 15% -4% 4%;
     padding: 1%;
     background-color: #fdfdfd;
     z-index: 1;
+    height: 100%;
+    width: 80%;
+}
+
+.bio_name h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .about_container {
   box-shadow: 1px 1px 3px rgb(184, 184, 184);
-  margin: 0 6% 2% 10%;
+  background-color: #fdfdfd;
+  width: 80%;
     padding: 10% 1% 1% 1%;
+    margin-bottom: 2%;
 }
 
 .about_container p {

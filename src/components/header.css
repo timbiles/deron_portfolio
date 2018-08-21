@@ -1,12 +1,12 @@
 .header_container {
-  background-color: #fdfdfd;
+  background-color: #383838;
   font-family: 'Rambla', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1% 5%;
-  padding: 1%;
-  box-shadow: 1px 1px 3px rgb(184, 184, 184);
+  padding: 0 1%;
+  box-shadow: 1px 1px 1px #383838;
+  height: 60px;
 }
 
 .header_main {
@@ -21,22 +21,9 @@
 
 .header_link {
   text-decoration: none;
-  color: rgb(104, 104, 104);
+  color: rgb(212, 212, 212);
 }
 
-.header_sub {
-  background-color: #fdfdfd;
-  font-family: 'Rambla', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* align-items: center; */
-  margin: -3% 10% 1% 10%;
-  padding: 1% 1% 0 3%;
-  box-shadow: 1px 1px 3px rgb(184, 184, 184);
-}
-
-.header_sub {
-    font-size: .8rem;
-    letter-spacing: 1px;
+.header_link:hover {
+    color: #fff;
 }
