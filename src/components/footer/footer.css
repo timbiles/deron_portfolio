@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90px;
+    background-color: #1B1A1B;
+}
+
+.footer p {
+    font-size: .8rem;
+    color: rgb(212, 212, 212);
+}
+
+.footer_container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.olive {
+    height: 20px;    
+}

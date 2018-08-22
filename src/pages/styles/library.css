@@ -47,12 +47,50 @@
 
 }
 
-
-
 .book {
   height: 300px;
   box-shadow: 1px 1px 5px grey;
 }
+
+.library_carousel {
+  margin: 3% 0;
+}
+
+.library_carousel h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.library_carousel h4 {
+  text-align: center;
+}
+
+.lib_btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lib_btn {
+  border: none;
+}
+
+.lib_btn:hover {
+  transform: scale(.95)
+}
+
+.lib_btn:active {
+  transform: scale(.92)
+  
+}
+
+.lib_btn:focus {
+  outline: none;
+}
+
+.library_carousel img {
+  padding: 0 1%;
+}
+
 
 @keyframes titleFade {
     0% {

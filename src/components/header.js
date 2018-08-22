@@ -25,8 +25,8 @@ const Header = ({ siteTitle }) => (
             About
           </Link>
 
-          <Link className="header_link" to="/portfolio">
-            Portfolio
+          <Link className="header_link" to="/library">
+            Library
           </Link>
 
           <Link className="header_link" to="/contact">
@@ -57,8 +57,8 @@ const Header = ({ siteTitle }) => (
             About
           </Link>
 
-          <Link className="header_link" to="/portfolio">
-            Portfolio
+          <Link className="header_link" to="/library">
+            Library
           </Link>
 
           <Link className="header_link" to="/contact">

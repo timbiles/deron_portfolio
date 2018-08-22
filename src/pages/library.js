@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Carousel from '../components/carousel/carousel';
 
-import './styles/portfolio.css'
+import './styles/library.css'
 
-const Portfolio = () => (
+const Library = () => (
   <div className="portfolio">
     <div className="portfolio_container">
       <div className="bio_name_sub">
@@ -11,7 +12,7 @@ const Portfolio = () => (
           <div className="a_line" />
           <div className="a_line" />
         </div>
-        <h1>Portfolio</h1>
+        <h1>Library</h1>
         <div className="line_container">
           <div className="a_line" />
           <div className="a_line" />
@@ -27,8 +28,9 @@ const Portfolio = () => (
           <div>
             <h2>The Ministry of a Shephard</h2>
             <p>
-              "So he shepherded them according to the integrity of his heart, and
-              guided them by the skillfulness of his hands."<br/> —Psalm 78:72
+              "So he shepherded them according to the integrity of his heart,
+              and guided them by the skillfulness of his hands."
+              <br /> —Psalm 78:72
             </p>
 
             <p>
@@ -105,8 +107,9 @@ const Portfolio = () => (
           </div>
         </div>
       </div>
+      <Carousel />
     </div>
   </div>
 )
 
-export default Portfolio
+export default Library
