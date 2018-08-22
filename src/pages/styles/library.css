@@ -104,3 +104,41 @@
       transform: translateX(0);
     }
   }
+
+  @media (max-width: 1000px) {
+    .portfolio_sub > div {
+      flex-direction: column;
+    }
+    .portfolio_sub > div h2{
+      text-align: center;
+    }
+
+    .portfolio_sub > div:nth-of-type(2) {
+      flex-direction: column-reverse;
+      text-align: start;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .portfolio_sub > div {
+      text-align: justify;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .portfolio_sub > div p{
+font-size: .8rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+.library_carousel h2 {
+  font-size: 1.5rem;
+}
+  }
+
+  @media (max-width: 400px) {
+    .library_carousel h2 {
+      font-size: 1.3rem;
+    }
+      }
