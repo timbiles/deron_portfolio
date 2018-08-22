@@ -3,10 +3,9 @@ import Link from 'gatsby-link'
 
 import './header.css'
 
-console.log(window.location)
 const Header = ({ siteTitle }) => (
   <div>
-    {window.location.pathname === '/' ? (
+    {/* {window.location.pathname === '/' ? ( */}
       <div
         className="header_container"
         style={{ backgroundColor: 'transparent' }}
@@ -34,8 +33,8 @@ const Header = ({ siteTitle }) => (
           </Link>
         </div>
       </div>
-    ) : (
-      <div
+    {/* ) : ( */}
+      {/* <div
         className="header_container"
         style={{
           backgroundColor: '#1B1A1B',
@@ -65,8 +64,8 @@ const Header = ({ siteTitle }) => (
             Contact
           </Link>
         </div>
-      </div>
-    )}
+      </div> */}
+    {/* )} */}
   </div>
 )
 
