@@ -18,7 +18,7 @@ const About = () => (
           <div className="a_line" />
         </div>
       </div>
-      <div className='bio_sub'>
+      <div className="bio_sub">
         <p>
           Dean Emeritus of Southwestern Center for Extension Education
           <br /> Professor of Pastoral Ministries and Preaching
@@ -29,11 +29,11 @@ const About = () => (
     </div>
 
     <div className="about_container">
-    <img 
-      className='profile_pic'
-      src="https://theologicalmatters.com/wp-content/uploads/2017/07/headshot-tm-deronbiles.jpg" 
-      alt="Deron Profile"
-    />
+      <img
+        className="profile_pic"
+        src="https://theologicalmatters.com/wp-content/uploads/2017/07/headshot-tm-deronbiles.jpg"
+        alt="Deron Profile"
+      />
       <p>
         Dr. Deron J. Biles and his wife, Jaye, have four sons: Joshua, Timothy,
         Jonathan, and David. They also have four daughters-in-law and four
@@ -69,6 +69,14 @@ const About = () => (
         and Preaching in the School of Theology and the School of Preaching.
       </p>
       <p>Dr. Biles and his wife reside in North Richland Hills, Texas.</p>
+    </div>
+    <div className='about_ed'>
+      <h2>Education</h2>
+      <p>
+        Ph.D., Old Testament, Southwestern Baptist Theological Seminary, 1997{' '}
+      </p>
+      <p>M.Div., Southwestern Baptist Theological Seminary, 1992</p>
+      <p>B.A., History and Bible, Howard Payne University, 1989</p>
     </div>
   </div>
 )

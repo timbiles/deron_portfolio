@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Roboto', sans-serif;
 }
 
 .bio_name {
@@ -11,12 +11,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 1px 1px 3px rgb(184, 184, 184); */
   padding-top: 8%;
-  /* padding: 1%; */
   width: 100%;
   opacity: 1;
-  background-color: #fdfdfd;  
+  background-color: #fdfdfd;
 }
 
 .bio_name_sub {
@@ -28,7 +26,7 @@
 
 .bio_sub p {
   text-align: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: 2px;
 }
 
@@ -39,26 +37,30 @@
   font-size: 3.5rem;
   letter-spacing: 2px;
   color: rgb(60, 60, 60);
-  /* width: 100%; */
 }
 
 .about_container {
-
   background-color: #fdfdfd;
 
-  padding: 5% 10%;
+  padding: 5% 10% 0 10%;
   margin-bottom: 2%;
   opacity: 1;
 }
 
 .profile_pic {
-    float: left;
-    margin: 1%;
+  float: left;
+  margin: 1%;
 }
 
 .about_container p {
   font-size: 0.9rem;
-  /* padding: 1%; */
+}
+
+.about_ed {
+}
+
+.about_ed p {
+  font-size: 0.9rem;
 }
 
 .line_container {
