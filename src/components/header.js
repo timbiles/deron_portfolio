@@ -5,7 +5,10 @@ import './header.css'
 
 const Header = ({ siteTitle }) => (
   <div>
-    {/* {window.location.pathname === '/' ? ( */}
+    {/* if (typeof window !== `undefined`) { */}
+    {typeof window !== `undefined` && 
+    
+    window.location.pathname === '/' ? (
       <div
         className="header_container"
         style={{ backgroundColor: 'transparent' }}
@@ -33,13 +36,13 @@ const Header = ({ siteTitle }) => (
           </Link>
         </div>
       </div>
-    {/* ) : ( */}
-      {/* <div
+    ) : (
+      <div
         className="header_container"
         style={{
           backgroundColor: '#1B1A1B',
           position: 'fixed',
-          width: '100%'
+          width: '100%',
         }}
       >
         <div className="header_main">
@@ -64,8 +67,8 @@ const Header = ({ siteTitle }) => (
             Contact
           </Link>
         </div>
-      </div> */}
-    {/* )} */}
+      </div>
+    )}
   </div>
 )
 
