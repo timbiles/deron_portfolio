@@ -1,14 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Hamburger from './hamburger/hamburger';
 import './header.css'
 
 const Header = ({ siteTitle }) => (
   <div>
-    {/* if (typeof window !== `undefined`) { */}
-    {typeof window !== `undefined` && 
-    
-    window.location.pathname === '/' ? (
+    {typeof window !== `undefined` && window.location.pathname === '/' ? (
       <div
         className="header_container"
         style={{ backgroundColor: 'transparent' }}
@@ -18,6 +16,7 @@ const Header = ({ siteTitle }) => (
             <h1>Deron Biles</h1>
           </Link>
         </div>
+        <Hamburger />
         <div className="header_right">
           <Link className="header_link" to="/">
             Home
@@ -50,6 +49,8 @@ const Header = ({ siteTitle }) => (
             <h1>Deron Biles</h1>
           </Link>
         </div>
+        <Hamburger />
+        
         <div className="header_right">
           <Link className="header_link" to="/">
             Home
